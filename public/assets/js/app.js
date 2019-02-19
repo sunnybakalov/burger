@@ -4,7 +4,7 @@ $(function() {
     //   var newSleep = $(this).data("newsleep");
   
       var newDevourState = {
-        devoured: 1
+        devour: 1
       };
   
       // Send the PUT request.
@@ -13,7 +13,6 @@ $(function() {
         data: newDevourState
       }).then(
         function() {
-        //   console.log("changed devoured state to", newDevourState);
           // Reload the page to get the updated list
           location.reload();
         }
