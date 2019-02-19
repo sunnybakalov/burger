@@ -1,0 +1,20 @@
+body {
+    background: #FFD90F;
+}
+
+body {
+    text-align: center;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.heading {
+    font-size: 130%;
+    
+}
+
+button {
+    border-radius: 12px;
+    background: rgb(232, 68, 68); 
+    color: #fff;
+    height: 2em;
+}
